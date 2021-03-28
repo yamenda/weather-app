@@ -1,0 +1,22 @@
+{{>header}}
+
+<h1>{{ title }} App Index HBS </h1>
+
+<form action="">
+    <div class="form-group">
+        <label for="address">Address:</label>
+        <input id="address" type="text" placeholder="Enter your address plz" />
+        <div id="error" class="error"></div>
+    </div>
+    <button type="button" onclick="goAddress()" class="btn btn-primary btn-block">Go</button>
+</form>
+
+
+
+<div class="content">
+    <p class="title">Use this site to get your weather </p>
+    <h2 id="location" class="location"></h2>
+    <p id="forecast" class="forecast"></p>
+</div>
+
+{{>footer}}

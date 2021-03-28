@@ -1,0 +1,104 @@
+body {
+    max-width: 650px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+nav {
+    margin-top: 25px;
+}
+
+nav ul {
+    display: contents;
+}
+
+nav ul li  {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    font-size: 24px;
+    color: rgb(124, 120, 120);
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(68, 66, 66);
+}
+
+.form-group {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1.5rem rgba(#000, .2);
+}
+
+.btn-primary {
+    background-color: rgb(64, 132, 141);
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: rgb(124, 120, 120);
+    margin-right: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.location {
+    color: rgb(64, 132, 141);
+    font-size: 20px;
+}
+
+.forecast {
+    font-size: 18px;
+    color: rgb(68, 66, 66);
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(68, 66, 66);
+}
+
+footer {
+    max-width: 650px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(64, 132, 141);
+}
+
+footer p {
+    color: #eee;
+    font-size: 18px;
+}
