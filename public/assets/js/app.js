@@ -1,6 +1,6 @@
 console.log("this is the client side js file");
 
-const serverUrl = 'http://localhost:3000/';
+const serverUrl = '/';
 
 const goAddress = function() {
 
