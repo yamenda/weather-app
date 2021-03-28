@@ -10,7 +10,7 @@ const forecast = (long, lat, callback) => {
         }else if (body.error) {
             callback("Unable to find location. Try another search.", undefined);
         }else {
-            callback(undefined, body.current.weather_descriptions[0] + ", It is currntly: " + body.current.temperature + ". There is a " + body.current.precip + "% chance to raine.");  
+            callback(undefined, body.current.weather_descriptions.length > 0 ? body.current.weather_descriptions : '' + " It is currntly: " + body.current.temperature + ". There is a " + body.current.precip + "% chance to rain.");  
         }
 
     });
