@@ -102,3 +102,15 @@ footer p {
     color: #eee;
     font-size: 18px;
 }
+
+.profile-img {
+    width: 75%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.created {
+    font-size: 18px;
+    color: rgb(61, 134, 122);
+}
